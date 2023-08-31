@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bom Apetite - Restaurante</title>
+</head>
+<body>
+    <header>
+        <img src="fotos/logo.jpg" alt="Logo do restaurante" class="logo">
+        <h1 class="name">Bom Apetite</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <img src="fotos/interior-do-restaurante.jpg" alt="Ambiente do Restaurante" class="interior">
+        <p>Bem-vindo ao Bom Apetite! Desfrute da melhor comida em um ambiente acolhedor.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <img src="fotos/chicken-steak-topped-with-white-sesame-peas-tomatoes-broccoli-pumpkin-white-plate.jpg" alt="Frango com salada" class="itens-menu">
+                <div class="menu-item-content">
+                    <h3>Salada fit</h3>
+                    <p>Salada de alface, repolho roxo, tomate e grão de bico. Acompanha 200g de frango grelhado</p>
+                    <p class="menu-item-price">R$39,90</p>
+                </div>
+            </li>
+            
+            <li class="menu-item">
+                <img src="fotos/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table.jpg" alt="Carne, batata, arroz" class="itens-menu">
+                <div class="menu-item-content">
+                    <h3>Prato Feito</h3>
+                    <p>Arroz, batata frita e tiras de carne com vegetais</p>
+                    <p class="menu-item-price">R$49,90</p>
+                </div>
+            </li>
+            
+            <li class="menu-item">
+                <img src="fotos/fettuccine-fresco-com-molho-bolonhesa-e-guacamole.jpg" alt="fettuccine-fresco-com-molho-bolonhesa-e-guacamole" class="itens-menu">
+                <div class="menu-item-content">
+                    <h3>Fettucine</h3>
+                    <p>Fettuccine fresco com molho bolonhesa e guacamole</p>
+                    <p class="menu-item-price">R$44,90</p>
+                </div>
+            </li>
+
+            <li class="menu-item">
+                <img src="fotos/strogonoff-de-carne-4.jpg" alt="strogonoff-de-carne" class="itens-menu">
+                <div class="menu-item-content">
+                    <h3>Strogonoff de Carne</h3>
+                    <p>Strogonoff de Carne. Acompanha arroz e batata palha</p>
+                    <p class="menu-item-price">R$49,90</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+
+        <h3>História:</h3>
+        <p>O restaurante Bom Apetite nasceu da visão e paixão de Daniel Schutz, um renomado chef culinário e explorador de sabores. Inspirado por suas viagens ao redor do mundo e sua busca incessante por combinações inovadoras de ingredientes, Daniel fundou o Bom Apetite em 2012. Localizado em uma antiga casa restaurada que remonta ao século XIX, o restaurante ganhou vida como um ponto de encontro para amantes da boa comida e da sofisticação.
+
+            Com uma abordagem única de fundir técnicas culinárias tradicionais com toques modernos e influências internacionais, Daniel buscou criar um local onde a culinária se tornasse uma experiência verdadeiramente transcendente.</p>
+
+        <h3>Valores:</h3>  
+        <ol>
+            <li><strong>Excelência Gastronômica:</strong> No Bom Apetite, a excelência é a nossa medida. Nossa equipe de chefs altamente qualificados e dedicados trabalha incansavelmente para criar pratos que despertam os sentidos e impressionam os paladares mais exigentes. Cada prato é uma obra-prima culinária, onde os ingredientes frescos e a técnica cuidadosa se encontram para criar uma experiência única.</li>
+            <li><strong>Inovação Contínua:</strong> Acreditamos que a evolução é fundamental para se destacar na culinária. Daniel e sua equipe estão sempre buscando novas maneiras de surpreender os clientes, introduzindo combinações de sabores inesperadas, apresentações criativas e pratos sazonais que refletem as últimas tendências gastronômicas.</li>
+            <li><strong>Respeito à Origem:</strong>Valorizamos a procedência dos nossos ingredientes e o respeito às tradições culinárias. Trabalhamos em parceria com produtores locais e fornecedores confiáveis para garantir que nossos pratos sejam feitos com ingredientes frescos e de alta qualidade. Além disso, celebramos a história da culinária ao incorporar influências de diversas culturas de maneira autêntica.</li>
+            <li><strong>Hospitalidade Sofisticada:</strong>A experiência no Bom Apetite vai além da comida; nossa equipe é treinada para proporcionar um serviço de primeira classe. Com atenção aos detalhes e uma abordagem acolhedora, desejamos que cada visita seja memorável e marcada por um atendimento exemplar.</li>
+        </ol>  
+
+        <p>O restaurante Bom Apetite, sob a liderança de Daniel Schutz, continua a ser um destino culinário de destaque, onde a paixão pela culinária encontra a sofisticação e a inovação.</p>
+
+
+
+
+    </section>
+
+    <section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+</body>
+</html>
